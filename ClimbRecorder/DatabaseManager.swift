@@ -40,6 +40,10 @@ class DatabaseManager {
         return container
     }()
     
+    class func createObject(ofType name: String) -> NSManagedObject {
+        return NSEntityDescription.insertNewObject(forEntityName: name, into: persistentContainer.viewContext)
+    }
+    
     class func saveContext () {
         let context = persistentContainer.viewContext
         if context.hasChanges {
