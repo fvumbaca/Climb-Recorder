@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		016BC5FF1FF4C1D90069DC46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BC5FE1FF4C1D90069DC46 /* AppDelegate.swift */; };
-		016BC6011FF4C1D90069DC46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BC6001FF4C1D90069DC46 /* ViewController.swift */; };
 		016BC6041FF4C1D90069DC46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016BC6021FF4C1D90069DC46 /* Main.storyboard */; };
 		016BC6071FF4C1D90069DC46 /* ClimbRecorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 016BC6051FF4C1D90069DC46 /* ClimbRecorder.xcdatamodeld */; };
 		016BC6091FF4C1D90069DC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016BC6081FF4C1D90069DC46 /* Assets.xcassets */; };
 		016BC60C1FF4C1D90069DC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016BC60A1FF4C1D90069DC46 /* LaunchScreen.storyboard */; };
 		016BC6171FF4C1D90069DC46 /* ClimbRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BC6161FF4C1D90069DC46 /* ClimbRecorderTests.swift */; };
 		016BC6221FF4C3610069DC46 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 016BC6211FF4C3610069DC46 /* GoogleService-Info.plist */; };
+		016BC6251FF4C50D0069DC46 /* RecorderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BC6241FF4C50D0069DC46 /* RecorderController.swift */; };
 		4E0413007A7BA70AF2BBA25D /* Pods_ClimbRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4DC73CBBC48E6F7FCD1D09 /* Pods_ClimbRecorder.framework */; };
 		D728C2BAE0993E58DB2B165E /* Pods_ClimbRecorderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731614ACDB798182FA219F63 /* Pods_ClimbRecorderTests.framework */; };
 /* End PBXBuildFile section */
@@ -33,7 +33,6 @@
 		0137A35E290B04B13208FBA0 /* Pods-ClimbRecorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbRecorder.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClimbRecorder/Pods-ClimbRecorder.release.xcconfig"; sourceTree = "<group>"; };
 		016BC5FB1FF4C1D90069DC46 /* ClimbRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimbRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		016BC5FE1FF4C1D90069DC46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		016BC6001FF4C1D90069DC46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		016BC6031FF4C1D90069DC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		016BC6061FF4C1D90069DC46 /* ClimbRecorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClimbRecorder.xcdatamodel; sourceTree = "<group>"; };
 		016BC6081FF4C1D90069DC46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		016BC6161FF4C1D90069DC46 /* ClimbRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbRecorderTests.swift; sourceTree = "<group>"; };
 		016BC6181FF4C1D90069DC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		016BC6211FF4C3610069DC46 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		016BC6241FF4C50D0069DC46 /* RecorderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderController.swift; sourceTree = "<group>"; };
 		2F718D22062EF79E54E9AB5D /* Pods-ClimbRecorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbRecorder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClimbRecorder/Pods-ClimbRecorder.debug.xcconfig"; sourceTree = "<group>"; };
 		731614ACDB798182FA219F63 /* Pods_ClimbRecorderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimbRecorderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE6E2EEBD1C43846DD1A40B /* Pods-ClimbRecorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbRecorderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClimbRecorderTests/Pods-ClimbRecorderTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,9 +93,9 @@
 		016BC5FD1FF4C1D90069DC46 /* ClimbRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				016BC6231FF4C4EC0069DC46 /* controllers */,
 				016BC6211FF4C3610069DC46 /* GoogleService-Info.plist */,
 				016BC5FE1FF4C1D90069DC46 /* AppDelegate.swift */,
-				016BC6001FF4C1D90069DC46 /* ViewController.swift */,
 				016BC6021FF4C1D90069DC46 /* Main.storyboard */,
 				016BC6081FF4C1D90069DC46 /* Assets.xcassets */,
 				016BC60A1FF4C1D90069DC46 /* LaunchScreen.storyboard */,
@@ -112,6 +112,14 @@
 				016BC6181FF4C1D90069DC46 /* Info.plist */,
 			);
 			path = ClimbRecorderTests;
+			sourceTree = "<group>";
+		};
+		016BC6231FF4C4EC0069DC46 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				016BC6241FF4C50D0069DC46 /* RecorderController.swift */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 		1B0902DF30470CA2473141E7 /* Pods */ = {
@@ -350,8 +358,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016BC6251FF4C50D0069DC46 /* RecorderController.swift in Sources */,
 				016BC6071FF4C1D90069DC46 /* ClimbRecorder.xcdatamodeld in Sources */,
-				016BC6011FF4C1D90069DC46 /* ViewController.swift in Sources */,
 				016BC5FF1FF4C1D90069DC46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

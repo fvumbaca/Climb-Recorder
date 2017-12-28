@@ -13,7 +13,7 @@
         <!--Climb Recorder-->
         <scene sceneID="nyV-1W-kJT">
             <objects>
-                <viewController id="fgp-rV-YIZ" sceneMemberID="viewController">
+                <viewController id="fgp-rV-YIZ" customClass="RecorderController" customModule="ClimbRecorder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="evd-v7-ZDa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
