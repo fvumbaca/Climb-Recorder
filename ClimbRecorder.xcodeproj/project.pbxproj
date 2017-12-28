@@ -14,6 +14,9 @@
 		016BC6091FF4C1D90069DC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016BC6081FF4C1D90069DC46 /* Assets.xcassets */; };
 		016BC60C1FF4C1D90069DC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016BC60A1FF4C1D90069DC46 /* LaunchScreen.storyboard */; };
 		016BC6171FF4C1D90069DC46 /* ClimbRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BC6161FF4C1D90069DC46 /* ClimbRecorderTests.swift */; };
+		016BC6221FF4C3610069DC46 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 016BC6211FF4C3610069DC46 /* GoogleService-Info.plist */; };
+		4E0413007A7BA70AF2BBA25D /* Pods_ClimbRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4DC73CBBC48E6F7FCD1D09 /* Pods_ClimbRecorder.framework */; };
+		D728C2BAE0993E58DB2B165E /* Pods_ClimbRecorderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731614ACDB798182FA219F63 /* Pods_ClimbRecorderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0137A35E290B04B13208FBA0 /* Pods-ClimbRecorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbRecorder.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClimbRecorder/Pods-ClimbRecorder.release.xcconfig"; sourceTree = "<group>"; };
 		016BC5FB1FF4C1D90069DC46 /* ClimbRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimbRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		016BC5FE1FF4C1D90069DC46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		016BC6001FF4C1D90069DC46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,12 @@
 		016BC6121FF4C1D90069DC46 /* ClimbRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimbRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		016BC6161FF4C1D90069DC46 /* ClimbRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbRecorderTests.swift; sourceTree = "<group>"; };
 		016BC6181FF4C1D90069DC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016BC6211FF4C3610069DC46 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2F718D22062EF79E54E9AB5D /* Pods-ClimbRecorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbRecorder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClimbRecorder/Pods-ClimbRecorder.debug.xcconfig"; sourceTree = "<group>"; };
+		731614ACDB798182FA219F63 /* Pods_ClimbRecorderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimbRecorderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE6E2EEBD1C43846DD1A40B /* Pods-ClimbRecorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbRecorderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClimbRecorderTests/Pods-ClimbRecorderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA4DC73CBBC48E6F7FCD1D09 /* Pods_ClimbRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimbRecorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E1B9FCE42C2EE1FEEDD183 /* Pods-ClimbRecorderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbRecorderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClimbRecorderTests/Pods-ClimbRecorderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E0413007A7BA70AF2BBA25D /* Pods_ClimbRecorder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D728C2BAE0993E58DB2B165E /* Pods_ClimbRecorderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +76,8 @@
 				016BC5FD1FF4C1D90069DC46 /* ClimbRecorder */,
 				016BC6151FF4C1D90069DC46 /* ClimbRecorderTests */,
 				016BC5FC1FF4C1D90069DC46 /* Products */,
+				1B0902DF30470CA2473141E7 /* Pods */,
+				72379B269BD9D9DF8DE47175 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +93,7 @@
 		016BC5FD1FF4C1D90069DC46 /* ClimbRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				016BC6211FF4C3610069DC46 /* GoogleService-Info.plist */,
 				016BC5FE1FF4C1D90069DC46 /* AppDelegate.swift */,
 				016BC6001FF4C1D90069DC46 /* ViewController.swift */,
 				016BC6021FF4C1D90069DC46 /* Main.storyboard */,
@@ -99,6 +114,26 @@
 			path = ClimbRecorderTests;
 			sourceTree = "<group>";
 		};
+		1B0902DF30470CA2473141E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F718D22062EF79E54E9AB5D /* Pods-ClimbRecorder.debug.xcconfig */,
+				0137A35E290B04B13208FBA0 /* Pods-ClimbRecorder.release.xcconfig */,
+				ADE6E2EEBD1C43846DD1A40B /* Pods-ClimbRecorderTests.debug.xcconfig */,
+				E4E1B9FCE42C2EE1FEEDD183 /* Pods-ClimbRecorderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72379B269BD9D9DF8DE47175 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA4DC73CBBC48E6F7FCD1D09 /* Pods_ClimbRecorder.framework */,
+				731614ACDB798182FA219F63 /* Pods_ClimbRecorderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 016BC61B1FF4C1D90069DC46 /* Build configuration list for PBXNativeTarget "ClimbRecorder" */;
 			buildPhases = (
+				A56439ED50F2ED226580ED09 /* [CP] Check Pods Manifest.lock */,
 				016BC5F71FF4C1D90069DC46 /* Sources */,
 				016BC5F81FF4C1D90069DC46 /* Frameworks */,
 				016BC5F91FF4C1D90069DC46 /* Resources */,
+				8F1558040DA13395E8AA7666 /* [CP] Embed Pods Frameworks */,
+				B4C0016BB9425BEF4405D275 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 016BC61E1FF4C1D90069DC46 /* Build configuration list for PBXNativeTarget "ClimbRecorderTests" */;
 			buildPhases = (
+				A6A5FAD2530F1A655BD51287 /* [CP] Check Pods Manifest.lock */,
 				016BC60E1FF4C1D90069DC46 /* Sources */,
 				016BC60F1FF4C1D90069DC46 /* Frameworks */,
 				016BC6101FF4C1D90069DC46 /* Resources */,
+				5832A540CCAAE4AFD2094EAD /* [CP] Embed Pods Frameworks */,
+				CDD0112F1A780E8904402425 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				016BC60C1FF4C1D90069DC46 /* LaunchScreen.storyboard in Resources */,
+				016BC6221FF4C3610069DC46 /* GoogleService-Info.plist in Resources */,
 				016BC6091FF4C1D90069DC46 /* Assets.xcassets in Resources */,
 				016BC6041FF4C1D90069DC46 /* Main.storyboard in Resources */,
 			);
@@ -196,6 +238,112 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5832A540CCAAE4AFD2094EAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClimbRecorderTests/Pods-ClimbRecorderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F1558040DA13395E8AA7666 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ClimbRecorder/Pods-ClimbRecorder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClimbRecorder/Pods-ClimbRecorder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A56439ED50F2ED226580ED09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClimbRecorder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6A5FAD2530F1A655BD51287 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClimbRecorderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4C0016BB9425BEF4405D275 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClimbRecorder/Pods-ClimbRecorder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD0112F1A780E8904402425 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClimbRecorderTests/Pods-ClimbRecorderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		016BC5F71FF4C1D90069DC46 /* Sources */ = {
@@ -355,6 +503,7 @@
 		};
 		016BC61C1FF4C1D90069DC46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F718D22062EF79E54E9AB5D /* Pods-ClimbRecorder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -370,6 +519,7 @@
 		};
 		016BC61D1FF4C1D90069DC46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0137A35E290B04B13208FBA0 /* Pods-ClimbRecorder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -385,6 +535,7 @@
 		};
 		016BC61F1FF4C1D90069DC46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE6E2EEBD1C43846DD1A40B /* Pods-ClimbRecorderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,6 +553,7 @@
 		};
 		016BC6201FF4C1D90069DC46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E1B9FCE42C2EE1FEEDD183 /* Pods-ClimbRecorderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
