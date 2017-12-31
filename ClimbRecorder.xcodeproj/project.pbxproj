@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01293CC11FF8840D00A5E878 /* ReadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01293CC01FF8840D00A5E878 /* ReadingManager.swift */; };
+		01293CC31FF88D2500A5E878 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01293CC21FF88D2500A5E878 /* Service.swift */; };
 		016BC5FF1FF4C1D90069DC46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BC5FE1FF4C1D90069DC46 /* AppDelegate.swift */; };
 		016BC6041FF4C1D90069DC46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016BC6021FF4C1D90069DC46 /* Main.storyboard */; };
 		016BC6071FF4C1D90069DC46 /* ClimbRecorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 016BC6051FF4C1D90069DC46 /* ClimbRecorder.xcdatamodeld */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01293CC01FF8840D00A5E878 /* ReadingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingManager.swift; sourceTree = "<group>"; };
+		01293CC21FF88D2500A5E878 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		0137A35E290B04B13208FBA0 /* Pods-ClimbRecorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbRecorder.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClimbRecorder/Pods-ClimbRecorder.release.xcconfig"; sourceTree = "<group>"; };
 		016BC5FB1FF4C1D90069DC46 /* ClimbRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimbRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		016BC5FE1FF4C1D90069DC46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +101,7 @@
 			children = (
 				016BC5FE1FF4C1D90069DC46 /* AppDelegate.swift */,
 				016BC6261FF58B440069DC46 /* DatabaseManager.swift */,
+				01293CC01FF8840D00A5E878 /* ReadingManager.swift */,
 				016BC6231FF4C4EC0069DC46 /* controllers */,
 				016BC6021FF4C1D90069DC46 /* Main.storyboard */,
 				016BC60A1FF4C1D90069DC46 /* LaunchScreen.storyboard */,
@@ -104,6 +109,7 @@
 				016BC60D1FF4C1D90069DC46 /* Info.plist */,
 				016BC6051FF4C1D90069DC46 /* ClimbRecorder.xcdatamodeld */,
 				016BC6211FF4C3610069DC46 /* GoogleService-Info.plist */,
+				01293CC21FF88D2500A5E878 /* Service.swift */,
 			);
 			path = ClimbRecorder;
 			sourceTree = "<group>";
@@ -363,8 +369,10 @@
 			files = (
 				016BC6271FF58B440069DC46 /* DatabaseManager.swift in Sources */,
 				016BC6251FF4C50D0069DC46 /* RecorderController.swift in Sources */,
+				01293CC11FF8840D00A5E878 /* ReadingManager.swift in Sources */,
 				016BC6071FF4C1D90069DC46 /* ClimbRecorder.xcdatamodeld in Sources */,
 				016BC5FF1FF4C1D90069DC46 /* AppDelegate.swift in Sources */,
+				01293CC31FF88D2500A5E878 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
